@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/fpoke">
+
+        <TextView
+            android:id="@+id/tvIdPokemon"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="1"
+            android:textColor="#00FFF7"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#00FFF7"
+            android:hint="Nombre"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/tvTipo"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#00FFF7"
+            android:hint="Tipo"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Descripción"
+            android:padding="5dp"
+            android:textColor="#00FFF7" />
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#A30DD8"
+            android:text="Editar"
+            android:textColor="@color/black"
+            app:cornerRadius="50dp" />
+
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#D80D0D"
+            android:textColor="@color/black"
+            android:text="Borrar"
+            app:cornerRadius="50dp"/>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
